@@ -151,6 +151,7 @@ main{
 }
 .main-currency-table .currency-table-title{
     margin-bottom: 15px;
+    margin-left: -120px;
     font-size: 1.8rem;
     font-weight: bold;
     line-height: 2.3rem;
@@ -233,5 +234,120 @@ main{
 
 
 }
+/*practica*/
 
-   
+.main-comisiones-tabla{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter' sans-serif;
+}
+.main-comisiones-tabla .main-comisiones-titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: 900;
+    line-height: 2.3rem;
+    color: var(--secundary-blue);
+    margin-left: -120px;
+    
+}
+
+
+.contenedor-tabla-comisiones{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+}
+.contenedor-tabla-comisiones table{
+    width: 100%;
+    height: 100%;
+    
+}
+.contenedor-tabla-comisiones td{
+width: 50%;
+font-size: 1.6rem;
+font-weight: 500;
+height: 1.9rem;
+color: var(--grey);
+background-color: var(--just-white);
+}
+.contenedor-tabla-comisiones .tabla-superior-izquierda{
+border-radius: 15px 0 0 0;
+}
+.contenedor-tabla-comisiones .tabla-superior-derecha{
+border-radius: 0 15px 0 0;
+ }
+.contenedor-tabla-comisiones .tabla-inferior-izquierda{
+border-radius: 0 0 0 15px;
+}
+.contenedor-tabla-comisiones .tabla-inferior-derecha{
+    border-radius: 0 0 15px 0;
+}
+.contenedor-tabla-comisiones .tabla-derecha{
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 1.7rem;
+    color: #757575;
+}
+.tabla-comision-dato{
+ width: 190px;
+height: 30px;
+margin: 0 auto;
+margin-top: 15px;
+padding: 8px;
+background-color: var(--soft-blue);
+border-radius: 8px;
+}
+.tabla-comision-dato p {
+
+font-size: 1.2rem;
+font-weight: 300;
+line-height: 1.5rem;
+color: var(--warm-black);
+}
+
+/*Siguiente seccion de los productos*/
+.main-product-detail{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: var(--warm-black);
+}
+.product-detail-batata-logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url('assets/icons/batata.svg');
+}
+.product-detail-title{
+    width: 90%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    text-align: center;
+
+
+}
+.product-detail-title h2{
+    margin-bottom: 20px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+.product-detail-title p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    height: 1.8rem;
+    color: #808080;
+}
