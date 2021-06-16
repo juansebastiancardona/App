@@ -351,3 +351,259 @@ color: var(--warm-black);
     height: 1.8rem;
     color: #808080;
 }
+
+/*tarjetas(Negro)*/
+
+.product-detail-card{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
+
+}
+.product-detail-card .clock{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("assets/icons/clock.svg");
+    /* SI UNA IOMAGEN  ES MAS GRANDE QUER LA DIMENSIONES QUE LE DIMOS*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+   
+}
+.product-card-title{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.product-card-body{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#808080 ;
+
+}
+/*tasas escondidas*/
+.product-detail-tasa{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
+}
+.product-detail-tasa .ojo{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("assets/icons/eye.svg");
+    /* SI UNA IOMAGEN  ES MAS GRANDE QUER LA DIMENSIONES QUE LE DIMOS*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
+.product-card-titulotasa{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+
+}
+.product-card-bodytasa{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#808080 ;
+}
+
+/*signo pesos*/
+.contenedor-pesos{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
+}
+.logo-pesos{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("assets/icons/dollar-sign.svg");
+    /* SI UNA IOMAGEN  ES MAS GRANDE QUER LA DIMENSIONES QUE LE DIMOS*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
+.titulo-pesos{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.texto-pesos{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#808080 ;
+}
+/*check de informacion*/
+.contenedor-informacion{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0,0,0, 0.16);
+}
+.contenedor-informacion--logo{
+    display: inline-block;
+    width: 20px ;
+    height: 20px;
+    margin-bottom: 10px;
+    background-image: url("assets/icons/check-circle.svg");
+    /* SI UNA IOMAGEN  ES MAS GRANDE QUER LA DIMENSIONES QUE LE DIMOS*/
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+
+}
+.contenedor-informacion--titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--just-white);
+}
+.contenedor-informacion--texto{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#808080 ;
+}
+
+/*comodin*/
+.contenedor-bitcoin--img{
+    width: 100%;
+    min-width: 320px;
+    height:50vh ;
+    background-image: url("/assets/img/bitcoinbaby2x.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+}
+.contenedor-bitcoin--img h2{
+    padding-top: 60px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--just-white);
+}
+/*Planes*/
+
+.contenedor-planes{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.titulo-planes{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    margin-bottom: 50px;
+   
+}
+.titulo-planes h2{
+    padding-top: 50px ;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.6rem;
+    color: var(--black);
+}
+.titulo-planes p {
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color:#757575;
+}
+
+/*Tarjetas*/
+.tarjetas-contenedor{
+    position: relative;
+    width: 70%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px auto 0;
+    padding: 0 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+
+.recomendado{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-15px;
+    
+    background-color: var(--bitcoin-orange);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white);
+
+}
+.titulo-tarjetas{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.precio-tarjetas{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+.precio-tarjetas  span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.tarjetas-anuncio{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
