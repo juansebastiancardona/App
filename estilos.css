@@ -526,12 +526,13 @@ color: var(--warm-black);
 }
 /*Planes*/
 
+
 .contenedor-planes{
     width: 100%;
     min-width: 320px;
     padding-bottom: 70px;
     text-align: center;
-
+   
 }
 .titulo-planes{
     width: 90%;
@@ -555,16 +556,25 @@ color: var(--warm-black);
     line-height: 1.8rem;
     color:#757575;
 }
-
+.tarjetas-planes-sliderh{
+  display: flex;  
+  height: 316px;
+  overflow-x: scroll;
+  overscroll-behavior-x: contain;
+  scroll-snap-type: x proximity;
+  
+  
+}
 /*Tarjetas*/
 .tarjetas-contenedor{
     position: relative;
-    width: 70%;
+    scroll-snap-align: center;
+    width: 65%;
     min-width: 230px;
     max-width: 300px;
     height: 250px;
-    margin: 50px auto 0;
-    padding: 0 15px;
+    margin: 50px 20px 0;
+   padding: 0 15px;
     background-color: var(--just-white);
     border-radius: 15px;
     box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
@@ -606,4 +616,180 @@ color: var(--warm-black);
 .tarjetas-anuncio{
     font-size: 1.2rem;
     color: #757575 ;
+}
+.tarjetas--boton{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans' sans-serif;
+
+}
+.tarjetas--boton span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url("assets/icons/orange-right-arrow.svg");
+
+    vertical-align: text-bottom;
+
+ /*   background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat; */
+
+}
+
+/*Tarjeta Basico*/
+.tarjetas-contenedor-basico{
+    
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 20px 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+
+.basico{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-10px;
+    
+    background-color: var(--bitcoin-orange);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white); 
+}
+.titulo-basico{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.precio-basico{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+.precio-basico span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.anuncio-basico{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
+.boton-basico{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans' sans-serif;
+
+}
+.boton-basico span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url("assets/icons/orange-right-arrow.svg");
+
+    vertical-align: text-bottom;
+}
+
+/*PREMIUM*/
+.tarjetas-contenedor-premium{
+    
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 20px 15px;
+    background-color: var(--just-white);
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+.premium{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-10px;
+    
+    background-color: var(--bitcoin-orange);
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: var(--just-white); 
+}
+.titulo-premium{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+}
+.precio-premium{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+}
+.precio-premium span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.anuncio-premium{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
+
+.boton-premium{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid var(--bitcoin-orange);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans' sans-serif;
+}
+.boton-premium span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url("assets/icons/orange-right-arrow.svg");
+
+    vertical-align: text-bottom;
 }
