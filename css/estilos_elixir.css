@@ -1,0 +1,797 @@
+/*DECLARACION DE VARIABLES*/
+
+/*Reseteo de estilos por defecto que tyrae el navegador*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Uso de rem*/
+html{
+     font-size: 62.5%;
+    font-family: 'DM Sans' sans-serif;
+}
+header{
+    background: linear-gradient(207.8deg, #0a81e288 16.69%, #144b03 100%);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    min-width:320px;
+    height: 334px;
+    padding-top:70px;
+}
+.header__imagen{
+    width: 40px;
+    height: 80px;
+    margin-top: -60px;
+    margin-left: 33%;
+   
+}
+.header__nombre{
+    font-size: 2.4rem;
+    font-weight: bold;
+    margin-left: 42%;
+    margin-top: -60px;
+    line-height: 50px;
+    margin-bottom: 20px;
+    
+}
+.header__contenedor--titulo{
+    width: 90%;
+    height: 168px;
+    min-width: 288px;
+    max-width: 900px;
+    
+    text-align: center;
+    align-self: center;
+     margin: 0 auto;
+    
+}
+.header__contenedor--titulo h1{
+    font-size: 2.6rem;
+    font-weight: 900 ;
+    line-height: 40px;
+    color: white;
+}
+.header__contenedor--titulo p{
+    margin-top: 25px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 20px;
+    color: #ebf0e9;
+}
+/*BOTONE*/
+.header__contenedor--botones{
+    position: absolute;
+   
+    justify-content: center;
+    align-items: center;
+   
+}
+.header__contenedor--botones ul{
+    display: flex;
+    padding-top: 8px;
+   
+}
+.header__contenedor--botones ul li{
+    text-decoration: none;
+    font-size: 1.6rem;
+    list-style: none;
+   
+    width: 150px;
+    background-color: #79b8e8;
+    opacity: 0.8;
+    margin-left:80px;
+    text-align:  center;
+    height: 30px;
+    align-items: center;
+    padding-top: 5px;
+    border-radius: 4px;
+   
+
+}
+.header__contenedor--botones ul li .a{
+    color:black;
+    text-decoration: none;
+    font-weight: 800;
+   
+}
+.header__contenedor--botones ul li .a span{
+    display: inline-block;
+    width: 13px;
+    height: 8px;
+    margin-left: 2px;
+    background-image: url("/assets/icons/down-arrow.svg");
+
+}
+
+/*MAIN CON CUATRO SECCIONES*/
+main{
+    width: 100%;
+    height: auto;
+    background-color: #FAF8F7 ;
+}
+    /*PRIMER CONTENEDOR*/
+.main__contenedor--precios{
+    width: 100%;
+    height: auto;
+    padding-top: 60px;
+    padding-bottom: 30px;
+    text-align: center;
+   
+}
+.contenedor__precios--titulo{
+    width: 90%;
+    min-width: 238px;
+    max-width: 900px;
+    margin: 0 auto;
+   
+}
+.contenedor__precios--titulo h2{
+    margin-bottom: 30px;
+    font-size: 2.4rem;
+    font-weight: bold;
+    line-height: 2.5rem;
+
+}
+.contenedor__precios--titulo p{
+    margin-bottom: 30px;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.9rem;
+    color: #757575;;
+}
+        /*LA TABLA 1*/
+.contenedor__tabla-uno{
+    width: 70%;
+    min-width: 235px;
+    max-width: 500px;
+    height: 360px;
+    margin: 0 auto;
+    font-family: 'Inter' sans-serif;
+}
+.contenedor__tabla-uno .tabla-uno-titulo{
+    margin-bottom: 15px;
+    margin-left: -120px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 2.3rem;
+    color: #3cc513;
+
+}
+.contenedor__tabla-uno .tabla-uno-titulo--rones{
+    margin-bottom: 15px;
+    margin-left: -120px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 2.3rem;
+    color:  #3cc513;
+
+}
+
+.contenedor__tabla-uno .tabla-uno-titulo--tequila{
+    margin-bottom: 15px;
+    margin-left: -120px;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 2.3rem;
+    color: #3cc513;
+
+}
+.tabla__uno{
+    width: 90%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 0 auto;
+
+}
+.tabla__uno table{
+    width: 100%;
+    height: 100%;
+}
+.tabla__uno td{
+    width: 50%;
+    font-size: 1.6rem;
+    font-weight: 500;
+    height: 1.9rem;
+    color: grey;
+    background-color: #FFFFFF;
+}
+.tabla__uno .tablauno-superior-izquierdo{
+    border-radius: 15px 0 0 0;
+}
+.tabla__uno .tablauno-superior-derecho{
+    border-radius:  0 15px 0 0;
+}
+.tabla__uno .tablauno-inferior-izquierdo{
+    border-radius: 0 0 0 15px;
+
+}
+.tabla__uno .tablauno-inferior-derecho{
+    border-radius:  0 0 15px 0;
+}
+.tabla__uno .superior-derecho{
+    font-size: 1.4rem;
+    font-weight:normal;
+    line-height: 1.7rem;
+    
+}
+.tabla__uno .bajo{
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image:url('/assets/icons/trending-down.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+.tabla__uno .subio{
+    display: inline-block ;
+    width: 15px;
+    height: 15px;
+    margin-left: 10px;
+    background-image: url('/assets/icons/trending-up.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tablauno-actualizado{
+    width: 190px;
+    height: 30px;
+    margin: 0 auto;
+    margin-top:  15px;
+    padding: 8px;
+    background:linear-gradient(207.8deg, #09369988 16.69%, #0d5713 100%) ;
+    border-radius: 8px;
+}
+.tablauno-actualizado p{
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5rem;
+    color: black;
+
+}
+.main__contenedor--servicios{
+    position: relative;
+    width: 100%;
+    min-width: 300px;
+    height: auto;
+    padding: 20px 10px;
+    background-color: #201E1C;
+    
+}
+.contenedor__servicios--logo{
+    position: absolute;
+    width: 40px;
+    height: 25px;
+    top: -10px;
+    left: calc(50% - 20px);
+    background-image: url('/assets/icons/batata.svg');
+}
+.contenedor__servicios--titulo{
+    width: 90%;
+    min-width: 280px;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 50px;
+    /**/
+   
+    text-align: center;
+}
+.contenedor__servicios--titulo h2{
+    margin-bottom: 16px;
+    font-size: 2.4rem;
+    font-weight: 900;
+    line-height: 2.6rem;
+    color:#ffffff ;
+}
+.contenedor__servicios--titulo p{
+    margin-bottom: 20px;
+    font-size: 1.4rem;
+    font-weight: 500 ;
+    height: 1.8rem;
+    color: #ffffff;
+}
+
+/*TARJETAS */
+    /*bancolombia*/
+.servicios__tarjetas--bancolombia{
+    width: 90%;
+    min-width: 288px;
+    max-width: 400px;
+    height: 150px;
+    margin: 15px auto;
+    padding: 15px;
+    background-color: #282623;
+    border-radius: 5px;
+    box-shadow: 0 7px 20px rgba(243, 220, 12, 0.815);
+}
+
+ .tarjetas__bancolombia--logo{
+    display: inline-block;
+    width: 180px;
+    height: 60px;
+    margin-bottom:10px;
+    background-image: url('/assets/icons/bc2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.tarjetas__bancolombia--titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: #ffffff;
+    
+}
+.tarjetas__bancolombia--parrafo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height:1.8rem ;
+    color: #808080;
+}
+/*davivienda*/
+.servicios__tarjetas--davivienda{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 160px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(233, 9, 9, 0.932);
+}
+.tarjetas__davivienda--logo{
+    display: inline-block;
+    width: 250px;
+    height: 80px;
+    margin-bottom:10px;
+    margin-left: -55px;
+    background-image: url('/assets/icons/davivienda2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tarjetas__davivienda--titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 0.8rem;
+    color: #ffffff;
+}
+.tarjetas__davivienda--parrafo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height:1.8rem ;
+    color: #808080;
+}
+/*baloto*/
+.servicios__tarjetas--baloto{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 160px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(233, 9, 9, 0.932);
+}
+.tarjetas__baloto--logo{
+    display: inline-block;
+    width: 250px;
+    height: 90px;
+    margin-bottom:10px;
+    margin-left: -15px;
+    background-image: url('/assets/icons/baloto.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tarjetas__baloto--titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 0.8rem;
+    color: #ffffff;
+}
+.tarjetas__baloto--parrafo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height:1.8rem ;
+    color: #808080;
+}
+/*megared*/
+.servicios__tarjetas--megared{
+    width: 90%;
+    min-width: 288px ;
+    max-width: 400px;
+    height: 180px;
+    margin: 15px auto;
+    padding: 15px ;
+    background-color: var(--black);
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgb(226, 217, 217);
+}
+.tarjetas__megared--logo{
+    display: inline-block;
+    width: 250px;
+    height: 100px;
+    margin-bottom:10px;
+    margin-left: 5px;
+    background-image: url('/assets/icons/megared.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat; 
+}
+
+.tarjetas__megared--titulo{
+    margin-bottom: 15px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 0.8rem;
+    color: #ffffff;
+}
+.tarjetas__megared--parrafo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height:1.8rem ;
+    color: #808080;
+}
+/*SECCION DE SEDES*/
+.contenedor__sedes--imagegenes{
+    width: 100%;
+    min-width: 230px;
+    max-width: 320px;
+    height: auto;
+    background-color: #FAF8F7 ; 
+}
+.sedes__imagenes--titulo1{
+    
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#3cc513;
+}
+.sedes__imagenes--primera{
+    width: 90%;
+    height: 360px;
+    margin: 10px auto;
+    border-radius: 14px;
+    background-image: url('/assets/img/licorera1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+ 
+}
+.sedes__imagenes--segunda{
+    width: 90%;
+    height: 360px;
+    background-color: #144b03;
+    margin: 14px auto;
+    border-radius: 8px;
+    background-image: url('/assets/img/licorera2.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    
+}
+.sedes__imagenes--titulo2{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-size: 1.8rem;
+    font-weight: bold;
+    color:#3cc513;
+}
+.contenedor__combos--ofertas{
+    width: 100%;
+    min-width: 320px;
+    padding-bottom: 70px;
+    text-align: center;
+
+}
+.combos__ofertas--titulo{
+    width: 90%;
+    min-width: 288px;
+    height: auto;
+    margin: 0 auto;
+    
+
+}
+.combos__ofertas--titulo h2{
+    padding-top: 20px;
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 2.8rem;
+    color:black;
+}
+.combos__ofertas--titulo  p{
+    padding-top: 15px;
+    font-size:1.5rem ;
+    line-height: 1.8rem;
+    color: #757575;;
+}
+
+.combos__ofertas--slider{
+    display: flex;
+    height: 320px;
+    /*lineas de coidigo para el scroll horizontal*/
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+    
+    
+}
+/*tarjeta del scroll combo*/
+
+.contenedor__combo--basico{
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 0 15px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+.basico{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-15px;
+    background:linear-gradient(207.8deg, #09369988 16.69%, #0d5713 100%) ;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color: #ffffff;
+
+}
+.titulo--basico{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+    
+}
+
+.precio--basico{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+
+}
+.precio--basico span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.anuncio--basico{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
+.boton--basico{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid rgba(16, 121, 98, 0.568);
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color: var(--black);
+    font-family: 'DM Sans' sans-serif;
+}
+.boton--basico span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url('/assets/icons/orange-right-arrow.svg');
+
+    vertical-align: text-bottom;
+}
+  
+    
+/*premim*/
+.contenedor__combo--premium{
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 20px 15px;
+    padding: 0 15px;
+    
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+.premium{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-15px;
+    
+    background:linear-gradient(207.8deg, #09369988 16.69%, #0d5713 100%) ;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color:#ffffff;
+}
+.titulo--premium{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+    
+}
+.precio--premium{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+
+}
+.precio--premium span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.anuncio--premium{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
+.boton--premium{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid rgba(16, 121, 98, 0.568);;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color:black;
+    font-family: 'DM Sans' sans-serif;
+}
+.boton--premium span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url('/assets/icons/orange-right-arrow.svg');
+    vertical-align: text-bottom;
+}
+
+/*VIP*/
+.contenedor__combo--vip{
+    position: relative;
+    scroll-snap-align: center;
+    width: 65%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding: 20px 15px;
+    padding: 0 15px;
+  
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+}
+.vip{
+    position: absolute;
+    width: 120px;
+    height: 31px;
+    padding: 6px;
+    left:calc(50% - 60px);
+    top:-15px;
+    background:linear-gradient(207.8deg, #09369988 16.69%, #0d5713 100%) ;
+    font-size: 1.2rem;
+    border-radius: 8px;
+    color:#ffffff;
+}
+.titulo--vip{
+    padding-top: 30px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 1.8rem;
+    color: black;
+    
+}
+
+.precio--vip{
+    padding: 5px 0;
+    font-size: 5.2rem;
+    font-weight: bold;
+    line-height: 5.3rem;
+    color: black;
+
+}
+.precio--vip span{
+    font-size: 1.2rem;
+    font-weight: 300;
+    vertical-align: 25px;
+}
+.anuncio--vip{
+    font-size: 1.2rem;
+    color: #757575 ;
+}
+.boton--vip{
+    width: 150px;
+    height: 48px;
+    margin-top: 20px ;
+    background-color: #FAF8F7;
+    border: 2px solid rgba(16, 121, 98, 0.568);;
+    border-radius: 4px;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.8rem;
+    color:black;
+    font-family: 'DM Sans' sans-serif;
+}
+.boton--vip span{
+    display: inline-block;
+    width: 20px;
+    height:20px ;
+    background-image: url('/assets/icons/orange-right-arrow.svg');
+
+    vertical-align: text-bottom;
+}
+
+footer{
+    display: flex;
+    width: 100%;
+    height: 150px;
+    background: linear-gradient(207.8deg, #0a81e288 16.69%, #144b03 100%);
+}
+footer section{
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    align-items: center
+   
+}
+
+footer .izquierda ul{
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 1.8rem;
+    list-style: none;
+}
+.izquierda li{
+    margin: 10px 0 ;
+}
+.izquierda a{
+    text-decoration: none ;
+    color: #FFFFFF;
+}
+
+
+
+
+    
+
+
+
+

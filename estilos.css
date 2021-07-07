@@ -22,7 +22,7 @@ html{
 }
 
 header{
-    background:linear-gradient(207.8deg, #201E1C 16.69%, #F7931A 100%);
+    background:linear-gradient(07.8deg, #201E1C 16.69%, #F7931A 100%);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -644,6 +644,8 @@ color: var(--warm-black);
     background-repeat: no-repeat; */
 
 }
+
+
 
 /*Tarjeta Basico*/
 .tarjetas-contenedor-basico{
